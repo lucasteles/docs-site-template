@@ -1,0 +1,17 @@
+items:
+    - name: Home
+      href: index.md
+
+    - name: Characters
+      href: ./characters/toc.yml
+
+    - name: Systems
+      href: ./systems/
+
+    - name: More
+      items:
+          - name: Game Design
+            href: ./game_design/
+
+          - name: About
+            href: ./about.md

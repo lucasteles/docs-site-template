@@ -1,0 +1,13 @@
+href: ./index.md
+items:
+    - name: Index
+      href: ./index.md
+
+    - name: Game Data
+      href: ./game_data.md
+
+    - name: Controls
+      href: ./controls.md
+
+    - name: Battle Mechanics
+      href: ./battle.md

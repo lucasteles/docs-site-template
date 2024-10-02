@@ -1,0 +1,10 @@
+href: ./index.md
+items:
+    - name: All Characters
+      href: ./index.md
+
+    - name: Kung Fu Man
+      href: ./kungfuman.md
+
+    - name: Kung Fu Girl
+      href: ./kungfugirl.md

@@ -1,0 +1,58 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**",
+          "password_template.html"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.{png,jpeg,jpg,ico,gif,mp3}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "template": [
+      "default",
+      "modern",
+      "template"
+    ],
+    "output": "_site",
+    "sitemap": {
+      "baseUrl": "https://lucasteles.github.io/game-docs-wiki"
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "noLangKeyword": false,
+      "_appName": "Docs Template Mugen",
+      "_appTitle": "Docs Template Mugen",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "_appLogoPath": "favicon-32x32.png",
+      "_appFaviconPath": "favicon.ico",
+      "_appFooter": "<span>© 2024, Someone. All Rights Reserved.</span>",
+      "_disableContribution": true,
+      "pdf": false,
+      "pdfFileName": "doc.pdf",
+      "pdfTocPage": true
+    },
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+        "tasklists",
+        "FootNotes"
+      ]
+    }
+  }
+}
